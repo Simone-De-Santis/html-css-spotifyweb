@@ -1,3 +1,36 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/* header  */
+
+
+
+
+
+
+/* ----------  */
+.col-1{
+    background-color: royalblue;
+}
+.navigation{
+    height: calc(100vh - 50px);
+    flex-direction: column;
+
+}
+
+.col-11{
+    background-color: rosybrown;
+    height: 50px;
+}
+.col-11.black{
+    background-color: black;
+}
+.container-fluid.black{
+    background-color: black;
+}
+.col-12{
+    background-color: tomato;
+    height: 50px;
+}

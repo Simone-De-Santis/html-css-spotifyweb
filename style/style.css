@@ -1,43 +1,31 @@
-body{
-    font-family: 'Montserrat', sans-serif;
+
+/*! NAV BAR LEFT  */
+#nav-bar-left{
+    background-color: black;
+    width: 100px;
 }
 
 
-/* header  */
-#haeder-bar{
-    background-color: #bc8f8fa1;
-    height: 50px;
+/* ! MAIN + HEADER FIXED */
+#main-scroll{
+    background-color: #141922;
+    height: 800px;
+    width: calc(100vw - 100px);
+    overflow-y: auto;
+}
+#header-main-fixed{
+    background-color:#080b12;
+    height: 100px;
     width: 100%;
     position: fixed;
-
 }
-
-
-/* nav-bar */
-#navigation-bar-left{
-    background-color: royalblue;
-    flex-grow: 1;
-    flex-direction: column;
-    
+/* !FOOTER  */
+#navbar-bottom{
+    background-color: #282828;
+    height: 100px;
+    width: 100vw;
+ 
 }
-
-
-/* main  */
-#main{
-    background-color: aqua;
-    overflow: auto;
-    height: calc(100vh - 50px);
-}
-/* footer  */
-
-#footer-bar{
-    background-color: tomato;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-
-}
-
 
 /* ----------  */
 

@@ -23,10 +23,13 @@ justify-content: space-between;
 /* ! MAIN + HEADER FIXED */ 
 #main-scroll{
     background-color: #141922;
-    height: 800px;
-    /* flex-grow: 1; */
+    height: calc(100vh - 100px);
+    flex-grow: 1;
     overflow-y: auto;
 }    
+.nowrap{
+    flex-wrap: nowrap;
+}
 #header-fix{
     background-color:#080b12;
     height: 100px;
@@ -43,11 +46,23 @@ justify-content: space-between;
 .main-list{
     margin-top: 100px;
 }    
+.main-list ol{
+    display: flex;
+    justify-content: space-around;
+    line-height: 50px;
+   
+
+
+}
+
 .main-list li{
     display: inline;
-    padding: 20px;
+    padding: 5px ​20px;
 
 }    
+.main-list li a{
+    text-decoration: none;
+}
 /* !FOOTER  */
 #navbar-bottom{
     background-color: #282828;

@@ -2,7 +2,8 @@
 /*! NAV BAR LEFT  */
 #nav-bar-left{
     background-color: black;
-    width: 100px;
+    width: 50px;
+    padding: 7px;
 }
 
 
@@ -10,14 +11,21 @@
 #main-scroll{
     background-color: #141922;
     height: 800px;
-    width: calc(100vw - 100px);
+    flex-grow: 1;
     overflow-y: auto;
 }
-#header-main-fixed{
+#header-fix{
     background-color:#080b12;
     height: 100px;
     width: 100%;
     position: fixed;
+}
+.btn-upgrade{
+    border: 1px solid white;
+    display: inline;
+    padding: 10px 25px;;
+    border-radius: 25px ;
+    font-size: 2em;   
 }
 /* !FOOTER  */
 #navbar-bottom{
@@ -28,4 +36,8 @@
 }
 
 /* ----------  */
+
+*{
+    color: rgb(255, 255, 255);
+}
 

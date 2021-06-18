@@ -29,6 +29,11 @@
     flex-grow: 0;
     flex-basis: auto;
 }
+.flex-center{
+    align-items: center;
+    height: 100%;
+}
+
 /* COLLUMN AUTO */
 .col{
     flex-grow: 1;
